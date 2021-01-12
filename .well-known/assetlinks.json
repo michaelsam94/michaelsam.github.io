@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rowaad.madintalasas",
+    "sha256_cert_fingerprints":
+    ["BB:05:C5:D1:5A:7F:34:9F:A4:C1:BF:A2:C9:6A:AC:42:4B:EB:BA:78:EB:24:0A:7C:5B:06:28:7C:4D:59:E1:19"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://michaelsam.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rowaad.madintalasas",
+    "sha256_cert_fingerprints":
+    ["BB:05:C5:D1:5A:7F:34:9F:A4:C1:BF:A2:C9:6A:AC:42:4B:EB:BA:78:EB:24:0A:7C:5B:06:28:7C:4D:59:E1:19"]
+  }
+}]
